@@ -1,0 +1,137 @@
+import java.util.Scanner;
+
+public class HelloWorld{
+
+     public static void main(String []args){
+         
+         //Exercise 1
+        System.out.println("        Exercise 1: Name \n");
+        System.out.println("Jane Doe \n----------------\n");
+        //Exercise 2
+        System.out.println("        Exercise 2: Hello world! (And all the people of the world) \n");
+        System.out.println("Hello world! \n(And all the people of the world) \n---------\n");
+        //Exercise 3
+        System.out.println("        Exercise 3: Spruce \n");
+        System.out.println("    *");
+        System.out.println("   ***");
+        System.out.println("  *****");
+        System.out.println(" *******");
+        System.out.println("*********");
+        System.out.println("    *\n");
+        //Exercise 4
+        System.out.println("        Exercise 4: Varying variables \n");
+        int Chickens=3;
+        float Bacon=5.5f;
+        String Tractor="There is none!";
+        System.out.println("Chickens:\n"+ Chickens + "\nBacon (kg):\n"+Bacon+"\nA tractor:\n"+Tractor);
+        System.out.println("\nIn a nutshell:\n"+ Chickens + "\n"+Bacon+"\n"+Tractor);
+        
+        Chickens=9000;
+        Bacon=0.1f;
+        Tractor="Zetor";
+        System.out.println("\nChange the program in the specified places so that it will print: \n");
+        System.out.println("Chickens:\n"+ Chickens + "\nBacon (kg):\n"+Bacon+"\nA tractor:\n"+Tractor);
+        System.out.println("\nIn a nutshell:\n"+ Chickens + "\n"+Bacon+"\n"+Tractor);
+        //Exercise 5
+        System.out.println("        Exercise 5: Seconds in a year \n");
+        int second_in_year;
+        second_in_year= 365 * 24 * 60 * 60;
+        System.out.println("There are "+ second_in_year +" seconds in a year.\n");
+        //Exercixe 6
+        System.out.println("        Exercise 6: Addition \n");
+        int a,b,c;
+        a=5; 
+        b=7;
+        c=a+b;
+        System.out.println(a + " + " + b + " = " + c +"\n");
+        a=73457;
+        b=12888;
+        c=a+b;
+        System.out.println(a + " + " + b + " = " + c +"\n");
+        
+        //Exercise 7
+        System.out.println("        Exercise 7: Multiplication \n");
+        int a1,b1,c1;
+        a1=2; 
+        b1=8;
+        c1=a1*b1;
+        System.out.println(a1 + " * " + b1 + " = " + c1 +"\n");
+        a1=277;
+        b1=111;
+        c1=a1*b1;
+        System.out.println(a1 + " * " + b1 + " = " + c1 +"\n");
+        
+        //Exercise 8
+    /*    Scanner reader = new Scanner(System.in);
+        System.out.println("        Exercise 8: Adder \n");
+        
+        System.out.print("Type a number: ");
+        int a2=Integer.parseInt(reader.nextLine());
+        
+        System.out.print("Type another number: ");
+        int b2=Integer.parseInt(reader.nextLine());
+        int c2=a2*b2;
+        reader.close();
+        
+        System.out.println("Sum of the number: "+c2 +"\n"); */
+        
+        //Exercise 9
+        
+    /*    System.out.println("        Exercise 9: Divider \n");
+        Scanner reader1 = new Scanner(System.in);
+        System.out.print("Type a number: ");
+        int a3=Integer.parseInt(reader1.nextLine());
+        
+        System.out.print("Type another number: ");
+        int b3=Integer.parseInt(reader1.nextLine());
+        float c3=(float)a3/(float)b3;
+        reader1.close();
+        
+        System.out.println("Division: "+c3 +"\n");*/
+        
+        //Exercise 10
+        
+   /*     System.out.println("        Exercise 10: Calculating the circumference \n");
+        Scanner reader2 = new Scanner(System.in);
+        System.out.print("Type the radius: ");
+        int radius=Integer.parseInt(reader2.nextLine());
+        double pi = Math.PI;
+        double circ= 2*pi*radius;     
+        reader2.close();
+        
+        System.out.println("Circumference of the circle:  "+circ+"\n"); */
+
+        //Exercise 11
+ /*       System.out.println("        Exercise 11: Bigger number \n");
+        Scanner reader3 = new Scanner(System.in);
+        System.out.print("Type a number: ");
+        int a4=Integer.parseInt(reader3.nextLine());
+        
+        System.out.print("Type another number: ");
+        int b4=Integer.parseInt(reader3.nextLine());
+        int c4= Math.max(a4, b4);
+        reader3.close();
+        
+        System.out.println("The bigger number of the two numbers given was:  "+c4+"\n"); */
+
+        //Exercise 12  
+   /*     System.out.println("        Exercise 12: Sum of the ages \n");
+        Scanner reader4 = new Scanner(System.in);
+        
+        System.out.print("Type your name: ");
+        String name1 = reader4.nextLine();
+        
+        System.out.print("Type your age: ");
+        int age1=Integer.parseInt(reader4.nextLine());
+        
+        System.out.print("Type your name: ");
+        String name2 = reader4.nextLine();
+        
+        System.out.print("Type your age: ");
+        int age2=Integer.parseInt(reader4.nextLine());
+       int age_sum=age1+age2;
+        reader4.close();
+        
+        System.out.println(name1+" and "+name2+" are "+age_sum+ " years old in total."+"\n"); */
+     }
+}
