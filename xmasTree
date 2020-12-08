@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+public class jolka {
+    public static void main(String[] args) {
+        Scanner reader = new Scanner(System.in);
+        System.out.print("Ivesite auksti ");
+        int a = reader.nextInt();
+        xmasTree(a);
+
+    }
+    private static void xmasTree(int a) {
+        for (int i = 0; i < a; i++) {
+            for (int j = 0; j < a - i; j++)
+                System.out.print(" ");
+            for (int k = 0; k < (2 * i + 1); k++)
+                System.out.print("*");
+            System.out.println();
+        }
+        for (int q = 0; q < a/2; q++) {
+            printWhitespaces(a);
+            printStars(a);
+            System.out.println();
+        }
+    }
+    private static void printStars(int a) {
+        for (int f = 0; f < a - 1; f++) {
+            System.out.print("*");
+        }
+    }
+
+    private static void printWhitespaces(int a) {
+
+        for (int s = 0; s < a-(s-1); s++) {
+            System.out.print(" ");
+
+        }
+    }
+
+
+}
